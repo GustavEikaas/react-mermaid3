@@ -22,5 +22,15 @@
     "@types/react": "^18.0.27",
     "typescript": "^4.9.3",
     "vite": "^4.1.1"
+  },
+  "packageManager": "pnpm",
+  "repository": {
+    "directory": ".",
+    "type": "github", 
+    "url": "https://github.com/GustavEikaas/react-mermaid3"
+  },
+  "author": {
+    "name": "Gustav Eikaas",
+    "email": "gustav.eikaas@gmail.com"
   }
 }
