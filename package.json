@@ -7,10 +7,11 @@
   "files": [
     "dist"
   ],
-  "module": "dist/mermaid.js",
-  "types": "dist/index.d.ts",
+  "module": "./dist/mermaid.js",
+  "main": "./dist/mermaid.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "prepublish": "npm version patch && git push",
+    "prepublish": "npm run build && npm version patch && git push",
     "publish": "npm publish",
     "build": "vite build && tsc -b"
   },
